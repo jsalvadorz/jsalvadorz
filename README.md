@@ -1,4 +1,10 @@
-### Hi there 👋
+## Hola, soy J. Andre 👋
+<div>
+<p align="left">
+Aquí un matemático de profesión de la Universidad Nacional de Ingeniería de Perú, especializándome en Ing. de Sistemas Computacionales en la Universidad Privada del Norte.
+</p>
+<img align="right" width="300" src="https://github.com/jsalvadorz/loading-images/raw/main/IMG_20210418_094653.jpg">
+<div>
 
 <!--
 **jsalvadorz/jsalvadorz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
