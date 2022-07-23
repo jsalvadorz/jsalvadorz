@@ -2,9 +2,9 @@
 
 <img align="right" width="250" src="https://github.com/jsalvadorz/loading-images/raw/main/IMG_20210418_094653.jpg">
 
-📐 Matemático de profesión de la **Universidad Nacional de Ingeniería** de Perú. <br>
-👨🏻‍💻 Especializándome en Ing. de Sistemas en la **Universidad Privada del Norte**. <br>
-📌 Viviendo en Lima, pero en viajes conociendo el Perú.
+📐 Matemático de profesión de la `Universidad Nacional de Ingeniería` de Perú. <br>
+👨🏻‍💻 Especializándome en Ing. de Sistemas en la `Universidad Privada del Norte`. <br>
+📌 Viviendo en `Lima`, pero en viajes conociendo el Perú.
 
 #### 🌐 Me ubicas en
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&link=https://www.instagram.com/andresalvadorz)](https://www.instagram.com/andresalvadorz)
