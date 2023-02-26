@@ -5,6 +5,8 @@ Matemático de profesión de la `Universidad Nacional de Ingeniería` de Perú. 
 Especializándome en Ing. de Sistemas en la `Universidad Privada del Norte`. <br>
 📌 Viviendo en `Lima`, pero en viajes conociendo el Perú.
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/junior-salvador-zambrano/)](https://www.linkedin.com/in/junior-salvador-zambrano/)
+
 ### 👨‍🎓 Cumpliendo retos
 ```python
 rangosDificultad = ["pollito", "maomenos", "otracosita", "hard", "pro", "masterdaster"]
