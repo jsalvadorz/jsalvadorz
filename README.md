@@ -1,12 +1,69 @@
 ## Hola, soy J. Andre \o/👋
-
-<img align="right" width="250" src="https://github.com/jsalvadorz/loading-images/raw/main/IMG_20210418_094653.jpg">
+<img align="right" width="280" src="https://github.com/jsalvadorz/loading-images/raw/main/IMG_20210418_094653.jpg">
 
 Matemático de profesión de la `Universidad Nacional de Ingeniería` de Perú. <br>
 Especializándome en Ing. de Sistemas en la `Universidad Privada del Norte`. <br>
 📌 Viviendo en `Lima`, pero en viajes conociendo el Perú.
 
-#### 🖥 Tecnologías que manejo
+### 👨‍🎓 Cumpliendo retos
+```python
+rangosDificultad = ["pollito", "maomenos", "otracosita", "hard", "pro", "masterdaster"]
+
+class Reto:
+    def __init__(self, nombre, dificultad, rangos = rangosDificultad):
+        self.__nombre = nombre
+        self.__dificultad = dificultad
+        
+        if self.__dificultad in rangos[3:]:
+            print(f"¡Esooooo tilín! Nivel {self.__dificultad} ¡Sin miedo al éxito! 🔥")
+        elif self.__dificultad in rangos[1:3]:
+            print("Bueeeeno, a veces toca relajarse 😆")
+        elif self.__dificultad == rangos[0]:
+            print("¡Hay dios!😱 mucho relajo, ¡No te pases!", 
+                  "\n¡Alerta! No se aceptan retos fáciles 😡")
+        else:
+            raise Exception("Upps! Como que te equivocaste de reto, ¿No?")
+        
+    @property
+    def nombre(self):
+        return self.__nombre
+    
+    @nombre.setter
+    def nombre(self, nValor):
+        self.__nombre = nValor
+        
+    @property
+    def dificultad (self):
+        return self.__dificultad
+
+    @dificultad.setter
+    def dificultad (self, dValor, rangos = rangosDificultad):
+        self.__dificultad = dValor
+        if self.__dificultad in rangos[3:]:
+            print(f"Actualizado a nivel {self.__dificultad}, volvió mi fe en ti 💪")
+```
+
+**Ejecutando:**
+```python
+miRetoActual = Reto("Aprender álgebra boolena", "pollito")
+```
+<blockquote>
+¡Hay dios!😱 mucho relajo, ¡No te pases!<br>
+¡Alerta! No se aceptan retos fáciles 😡
+</blockquote>
+
+```python
+miRetoActual.nombre = "Aprender Big Data"
+miRetoActual.dificultad = "hard"
+print(f"Mi nuevo reto: {miRetoActual.nombre} nivel {miRetoActual.dificultad}")
+```
+<blockquote>
+Actualizado a nivel hard, volvió mi fe en ti 💪<br>
+Mi nuevo reto: Aprender Big Data nivel hard
+</blockquote>
+
+---
+### 🖥 Tecnologías que manejo
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
