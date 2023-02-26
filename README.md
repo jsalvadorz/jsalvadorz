@@ -19,7 +19,7 @@ class Reto:
         elif self.__dificultad in rangos[1:3]:
             print("Bueeeeno, a veces toca relajarse 😆")
         elif self.__dificultad == rangos[0]:
-            print("¡Hay dios!😱 mucho relajo, ¡No te pases!", 
+            print("¡Hay Dios!😱 mucho relajo, ¡No te pases!", 
                   "\n¡Alerta! No se aceptan retos fáciles 😡")
         else:
             raise Exception("Upps! Como que te equivocaste de reto, ¿No?")
@@ -48,7 +48,7 @@ class Reto:
 miRetoActual = Reto("Aprender álgebra boolena", "pollito")
 ```
 <blockquote>
-¡Hay dios!😱 mucho relajo, ¡No te pases!<br>
+¡Hay Dios!😱 mucho relajo, ¡No te pases!<br> 
 ¡Alerta! No se aceptan retos fáciles 😡
 </blockquote>
 
@@ -64,10 +64,12 @@ Mi nuevo reto: Aprender Big Data nivel hard
 
 ---
 ### 🖥 Tecnologías que manejo
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![JAVA](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![SQLServer](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=LaTeX&logoColor=white)
 [![GitLab](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white&link=https://gitlab.com/jsalvadorz)](https://gitlab.com/jsalvadorz)
