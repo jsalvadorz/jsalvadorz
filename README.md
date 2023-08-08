@@ -1,77 +1,63 @@
-## Hola, soy J. Andre \o/👋
-<img align="right" width="280" src="https://github.com/jsalvadorz/loading-images/raw/main/IMG_20210418_094653.jpg">
+# Hi, I'm Junior Andre \o/👋
+<img src="https://raw.githubusercontent.com/jsalvadorz/jsalvadorz/master/main.jpg">
 
-Matemático de profesión de la `Universidad Nacional de Ingeniería` de Perú. <br>
-Especializándome en Ing. de Sistemas en la `Universidad Privada del Norte`. <br>
-📌 Viviendo en `Lima`, pero en viajes conociendo el Perú.
+**Mathematician** by profession from the **`National University of Engineering`** (Peru) and currently studying **Systems Engineering** at the **`Universidad Privada del Norte`**. At the same time I work as a **Data and Operations Analyst** with a passion for complex problem solving with a results-oriented approach. <br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/juniorsalvadorz/)](https://www.linkedin.com/in/juniorsalvadorz/)
+📌 Based in `Lima, 🇵🇪`
 
-### 👨‍🎓 Cumpliendo retos
-```python
-rangosDificultad = ["pollito", "maomenos", "otracosita", "hard", "pro", "masterdaster"]
+## 👨‍🎓 Take a look, Python geek!
 
-class Reto:
-    def __init__(self, nombre, dificultad, rangos = rangosDificultad):
-        self.__nombre = nombre
-        self.__dificultad = dificultad
+```Python
+class Coding:
+    def __init__(self, name, focus, conversation, headphones = False):
+        self.name = name
+        self.focus = focus
+        self.conversation = conversation
+        self.headphones = headphones
         
-        if self.__dificultad in rangos[3:]:
-            print(f"¡Esooooo tilín! Nivel {self.__dificultad} ¡Sin miedo al éxito! 🔥")
-        elif self.__dificultad in rangos[1:3]:
-            print("Bueeeeno, a veces toca relajarse 😆")
-        elif self.__dificultad == rangos[0]:
-            print("¡Hay Dios!😱 mucho relajo, ¡No te pases!", 
-                  "\n¡Alerta! No se aceptan retos fáciles 😡")
+    def showData(self):
+        if self.name == 'Python':
+            print(  '¡Right choice! loving Python 🔥',
+                    f'\nSkills for {self.name}',
+                    f'\nFocus: {self.focus} %',
+                    f'\nConversation: {self.conversation}',
+                    f'\nHeadphones: {self.headphones}'  )
         else:
-            raise Exception("Upps! Como que te equivocaste de reto, ¿No?")
+            raise Exception('!No other programming languages are permited! 😡')
         
-    @property
-    def nombre(self):
-        return self.__nombre
-    
-    @nombre.setter
-    def nombre(self, nValor):
-        self.__nombre = nValor
-        
-    @property
-    def dificultad (self):
-        return self.__dificultad
-
-    @dificultad.setter
-    def dificultad (self, dValor, rangos = rangosDificultad):
-        self.__dificultad = dValor
-        if self.__dificultad in rangos[3:]:
-            print(f"Actualizado a nivel {self.__dificultad}, volvió mi fe en ti 💪")
+myTask = Coding('Python', 100, None, True)
+myTask.showData()
 ```
 
-**Ejecutando:**
-```python
-miRetoActual = Reto("Aprender álgebra boolena", "pollito")
+**Running code:**
+```bash
+>   ¡Right choice! loving Python 🔥 
+    Skills for Python 
+    Focus: 100 % 
+    Conversation: None 
+    Headphones: True
 ```
-<blockquote>
-¡Hay Dios!😱 mucho relajo, ¡No te pases!<br> 
-¡Alerta! No se aceptan retos fáciles 😡
-</blockquote>
 
-```python
-miRetoActual.nombre = "Aprender Big Data"
-miRetoActual.dificultad = "hard"
-print(f"Mi nuevo reto: {miRetoActual.nombre} nivel {miRetoActual.dificultad}")
-```
-<blockquote>
-Actualizado a nivel hard, volvió mi fe en ti 💪<br>
-Mi nuevo reto: Aprender Big Data nivel hard
-</blockquote>
+## 🖥 My Tech Stack
 
----
-### 🖥 Tecnologías que manejo
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![JAVA](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![SQLServer](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=LaTeX&logoColor=white)
-[![GitLab](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white&link=https://gitlab.com/jsalvadorz)](https://gitlab.com/jsalvadorz)
+![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
+![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
